@@ -1,3 +1,29 @@
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+
+
+header{
+    flex: 0 0 100%;
+}
+
+nav{
+    flex: 0 0 100%;
+}
+
+aside{
+    flex: 1 0 25%;
+}
+article{
+    flex: 1 0 70%;
+}
+footer{
+    flex: 0 0 100%;
+}
+
 nav{
     background-color: #333333;
 }
@@ -7,6 +33,7 @@ nav ul{
     gap: 10px;
     justify-content: center;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 li{
@@ -29,6 +56,15 @@ nav li:hover a {
     color: yellow;
 }
 
-main{
-    flex-direction: row-reverse;
+
+/* aside{
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+    justify-self: end;
 }
+
+aside p{
+    max-width: 150px;
+} */
+

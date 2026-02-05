@@ -7,6 +7,7 @@ nav ul{
     gap: 10px;
     justify-content: center;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 li{
@@ -22,6 +23,7 @@ li a{
 
 nav li:hover {
     background-color: #555;
+    cursor: pointer;
 }
 
 nav li:hover a {
